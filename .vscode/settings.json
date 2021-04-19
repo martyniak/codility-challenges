@@ -1,6 +1,15 @@
 {
     "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
     "files.associations": {
-        "*.h": "c"
+        "*.h": "c",
+        "iostream": "c",
+        "array": "c",
+        "*.tcc": "c",
+        "memory": "c",
+        "istream": "c",
+        "ranges": "c",
+        "functional": "c",
+        "tuple": "c",
+        "utility": "c"
     }
 }
