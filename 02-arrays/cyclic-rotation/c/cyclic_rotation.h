@@ -1,5 +1,5 @@
-#ifndef CYCLICROTATION_H
-#define CYCLICROTATION_H
+#ifndef CYCLIC_ROTATION_H
+#define CYCLIC_ROTATION_H
 
 struct Results {
     int * A;

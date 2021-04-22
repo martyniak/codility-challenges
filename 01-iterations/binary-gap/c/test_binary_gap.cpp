@@ -1,7 +1,7 @@
 #include <iostream>
-#include "quicktest.h"
+#include "quick_test.h"
 #include "gtest/gtest.h"
-#include "binarygap.h"
+#include "binary_gap.h"
 
 class BinaryGapTest : public QuickTest {};
 

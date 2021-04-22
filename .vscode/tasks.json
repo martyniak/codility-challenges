@@ -10,7 +10,7 @@
                 "${fileDirname}/*.c",
                 "${workspaceFolder}/.lib/*.a",
                 "-o",
-                "${fileDirname}\\a.exe",
+                "${fileDirname}/a.exe",
                 "-I",
                 "${fileDirname}",
                 "-I",
