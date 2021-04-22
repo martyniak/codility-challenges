@@ -1,7 +1,7 @@
 import unittest
 import pytest
 
-from binarygap import solution
+from binary_gap import solution
 
 def test_solution_6():
     assert solution(6) == 0

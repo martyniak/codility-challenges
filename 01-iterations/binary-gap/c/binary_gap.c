@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "binarygap.h"
+#include "binary_gap.h"
 
 int solution(int N)
 {

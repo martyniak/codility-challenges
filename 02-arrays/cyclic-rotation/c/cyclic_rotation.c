@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "cyclicrotation.h"
+#include "cyclic_rotation.h"
 
 struct Results solution(int A[], int N, int K)
 {

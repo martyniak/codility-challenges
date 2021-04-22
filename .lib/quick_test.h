@@ -1,5 +1,5 @@
-#ifndef QUICKTEST_H
-#define QUICKTEST_H
+#ifndef QUICK_TEST_H
+#define QUICK_TEST_H
 
 #include <iostream>
 #include "gtest/gtest.h"
