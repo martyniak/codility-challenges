@@ -7,7 +7,7 @@ struct Results solution(int A[], int N, int K)
     struct Results result;
     int i, newIndex;
 
-    result.A = (int*) malloc(N * sizeof(int));;
+    result.A = (int*) malloc(N * sizeof(int));
     result.N = N;
 
     for (i = 0; i < N; i++) {
