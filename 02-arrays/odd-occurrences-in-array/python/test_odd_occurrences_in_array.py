@@ -1,7 +1,7 @@
 import unittest
 import pytest
 
-from odd_occurrences_in_array import solution
+from .odd_occurrences_in_array import solution
 
 def test_solution_1():
     assert solution([9]) == 9
