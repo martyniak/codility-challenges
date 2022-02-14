@@ -1,10 +1,9 @@
-import unittest
 import pytest
 
-from .odd_occurrences_in_array import solution
+from odd_occurrences_in_array import solution
 
-def test_solution_1():
-    assert solution([9]) == 9
 
-def test_solution_7():
-    assert solution([9, 3, 9, 3, 9, 7, 9]) == 7
+@pytest.mark.parametrize("test_input, expected", [([9], 9), ([9, 3, 9, 3, 9, 7, 9], 7)])
+def test_solution(test_input, expected):
+    result = solution(test_input)
+    assert result == expected
