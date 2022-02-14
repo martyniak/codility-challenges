@@ -1,7 +1,9 @@
-import unittest
 import pytest
 
-from .permutation_missing_element import solution
+from permutation_missing_element import solution
 
-def test_solution_1():
-    assert solution([2, 3, 1, 5]) == 4
+
+@pytest.mark.parametrize("test_input, expected", [([2, 3, 1, 5], 4)])
+def test_solution(test_input, expected):
+    result = solution(test_input)
+    assert result == expected
